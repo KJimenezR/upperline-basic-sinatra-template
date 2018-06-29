@@ -1,0 +1,132 @@
+body {
+    background-color: #FDFD96;
+}
+h1 { 
+color: white;
+font-size: 620%
+}
+
+ h2 {
+  font-size: 580%;
+  font-family: 'Lily Script One', cursive;
+  color: #fff;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+  
+}
+
+}
+
+h4 {
+    font-size: 300%;
+    color: #bf3030; 
+    font-family: cursive;
+}
+h3 {
+    font-size: 300%;
+    font-family: 'Lily Script One', cursive;
+    color:#fff;
+     text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+}
+.center {
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    border-style: dotted;
+.align {
+margin: auto;}
+
+body {font-family: Arial;}
+         Style the tab 
+        .tab {
+            overflow: hidden;
+            border: 1px solid #FFC300;
+            background-color: #F6DF5C;
+        }
+         Style the buttons inside the tab 
+        .tab button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+            font-size: 17px;
+        }
+         Change background color of buttons on hover 
+        .tab button:hover {
+            background-color: #F6D15C;
+        }
+         Create an active/current tablink class 
+        .tab button.active {
+            background-color: #F6D15C;
+        }
+         Style the tab content 
+        .tabcontent {
+            display: none;
+            padding: 6px 12px;
+            border: 1px solid #FFC300;
+            border-top: none;
+            background-color: #F9EA8D;
+        }
+         a:link, a:visited {
+            background-color: #F6D15C;
+            color: black;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+    class="center a:hover, a:active {
+        background-color: #F9C24C;
+    }
+    body {font-family: Arial;}
+        /* Style the tab */
+        .tab {
+            overflow: hidden;
+            border: 1px solid #FFC300;
+            background-color: #F6DF5C;
+        }
+        h4 {
+            font-size: 300%;
+            color: #bf3030; 
+            font-family: cursive;
+}
+        /* Style the buttons inside the tab */
+        .tab button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+            font-size: 17px;
+        }
+        /* Change background color of buttons on hover */
+        .tab button:hover {
+            background-color: #F6D15C;
+        }
+        /* Create an active/current tablink class */
+        .tab button.active {
+            background-color: #F6D15C;
+        }
+        /* Style the tab content */
+        .tabcontent {
+            display: none;
+            padding: 6px 12px;
+            border: 1px solid #FFC300;
+            border-top: none;
+            background-color: #F9EA8D;
+        }
+        
+        .Quiz {
+            background-color: #9EF1DD;
+            font-family: 'Merienda One', cursive;
+            color: white;
+                
+        }
+        
+.search {
+    width: 100em;  height: 300em;
+}

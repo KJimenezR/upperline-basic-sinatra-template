@@ -1,1 +1,15 @@
-This is the folder where you can store images
+laugh.png
+mem.jpg
+mimmm.jpg
+memes.jpg
+memem.jpg
+ubrrk.jpg
+funny.jpg
+f9a.jpg
+meme2.jpg
+dog.jpg
+Baby.jpg
+DoctorWho.jpg
+Dog&Pillow.jpg
+Fly.jpg
+Water.jpg

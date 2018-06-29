@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Results</title>
+         <style>
+        body {
+            background-color: #F5B4A7;
+            font-family: 'Merienda One', cursive;
+            color: #932566;
+            font-size: 200%;
+        }
+        </style>
+
+    </head>
+    
+    <body>
+        <h1><center>Hello! We have your results!</center></h1>
+         <h2><center>We would like to help you in any way we can, so we thought of some recomendations, just for you:</center></h2>
+         
+        <% if params[:age] == "30_&_above"%>
+            <h3>Support & Help:</h3>
+            <h4>https://preventsuicidewv.org/help-for-adults-suicide-prevention/</h4>
+        <% end%>
+        <% if params[:age] == "between_18_&_30"%>
+            <h3>Support & Help:</h3>
+            <h4>http://www.suicideispreventable.org</h4>
+        <% end%>
+        <% if params[:age] == "17_&_under"%>
+           <h3>Support & Help:</h3>
+           <h4>http://www.sptsusa.org</h4>
+        <% end%>
+        
+        
+        <% if params[:attempted] == "yes"%>
+            <h4>http://www.suicidology.org/suicide-survivors/suicide-attempt-survivors</h4>
+            <img src= "images/fSuicide-9.jpg" alt=bee>
+        <% end%>
+        
+        
+        <h3>Here are some encoraging Websites & images:</h3>
+            <% if params[:thoughts] == "peer_pressure/bullying"%>
+                <img src= "images/s_481.jpg" alt=cat>
+                <h4>https://www.ncab.org.au/get-help/</h4>
+            <% end%>
+            <% if params[:thoughts] == "disorders"%>
+            <img src= "images/2016-frame-heart-copy1.png" alt=bee>
+                <h4>https://www.bleedingdisorders.com/patient-support/financial-assistance-copay.html</h4>
+            <img src= "images/c_24.jpg" alt=bee>
+            <% end%>
+            <% if params[:thoughts] == "depression"%>
+            <img src= "images/stock-vector-hand-drawn-inspirational-and-encouraging-quote-vector-isolated-typography-design-element-for-463405370.jpg" alt=bee>
+                <h4>https://www.helpguide.org/articles/depression/coping-with-depression.htm</h3>
+            <% end%>
+            <% if params[:thoughts] == "regret/guilt"%>
+                <h3>https://www.psychologytoday.com/us/blog/the-intelligent-divorce/201505/regret-8-ways-move</h3>
+            <img src= "images/forgiveness-9.jpg" alt=bee>
+            <% end%>
+            <% if params[:thoughts] == "I'm_not_sure."%>
+                <h3>https://www.mayoclinic.org/diseases-conditions/suicide/symptoms-causes/syc-20378048</h3>
+                http://farm4.static.flickr.com/3384/3656373110_c2cd1a9b45.jpg?v=0
+            <% end%>
+        
+        
+        <h2><center>Have you thought about getting a pet? We thought we might help you with that! Here is a pet recomendation for you:</center></h2>
+            <% if params[:pets] == "cats"%>
+                <h3>Meet The American Shorthair, Your new Best Friend!</h3>
+                 <img src= "images/Unknown.jpeg" alt=bee>
+                <p>One thing cats have on dogs are their life span. The American Shorthair can live 15 to 20 years. Cat Time refers to the breed as "adaptable" and "good natured." With a "sociable nature" this cat makes a great companion who will enjoy playtime. </p>
+                <p>The American Shorthair is a breed of domestic cat believed to be descended from European cats brought to North America by early settlers to protect valuable cargo from mice and rats. This breed loves to play and will make a toy out of anything. American Shorthairs will particularly enjoy interactive play with their humans, which will help battle this breed’s tendency toward obesity.</p>
+            
+                <h3>Not the right cat for you? Meet the Exotic Shorthair!</h3>
+                 <img src= "images/Exotic-Shorthair-9.jpg" alt=bee>
+                <p>This breed has its playful side, but it prefers to cuddle and relax for most of the day. Perfect for urban homes, or for country living, the Exotic is plush and beautiful to look at, with the added benefit of being one of the more affectionate breeds. A Persian without pretension, the Exotic is also easy to care for, with a minimal shedding but still luxurious coat.</p>
+                <p>This breed is amused by the simple pleasures of life. A string or a paper ball are enough to keep your Exotic pleased. They are not jumpers, nor do they dash around the house or make trouble on shelves. Their preference leans more toward lounging around and being caressed. They are amongst the most affectionate and loyal of cats breeds, a true companion pet.</p>
+            <% end %>
+            <% if params[:pets] == "dogs"%>
+                <h3>Meet The Labrador Retriever, Your new Best Friend!</h3>
+                 <img src= "images/90.jpeg" alt=bee>
+                <p>The Labrador Retriever was bred to be both a friendly companion and a useful working dog breed. The Lab has the reputation of being one of the most sweet-natured breeds, and it's well deserved. He's outgoing, eager to please, and friendly with both people and other animals. Aside from a winning personality, he has the intelligence and eagerness to please that make him easy to train. Training is definitely necessary because this breed has a lot of energy and exuberance.</p>
+                 <img src= "images/Labrador-jpg.jpg" alt=bee>
+
+                <h3>Need something smaller? We have the solution... Meet The Pug!</h3>
+                 <img src= "images/1-multi.jpg" alt=bee>
+                <p>Although pugs naturally look like they're in a perpetual state of grumpiness, (and it's adorable) they are actually some of the most naturally positive dogs around. According to The Daily Positive, pugs are an excellent breed for anyone suffering from depression, because they generally possess a steadily positive temperament and funny personality. Pug owners say their breed is the ideal house dog. These sturdy, compact dogs are a part of the American Kennel Club’s Toy group, and are known as the clowns of the canine world because they have a great sense of humor and like to show off.</p>
+                 <img src= "images/2-face.jpg" alt=bee>
+            <% end %>
+        
+    </body>
+</html>
